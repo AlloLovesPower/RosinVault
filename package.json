@@ -1,0 +1,35 @@
+{
+  "name": "rosinvault",
+  "description": "just a the websites",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js",
+    "format": "npx prettier --write **/*.{js,md}",
+    "format:check": "npx prettier --check **/*.{js,md}",
+    "lint": "npx eslint server/*.js --env=node && npx eslint client/*.js --env=browser"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
+    "cors": "^2.8.5",
+    "express-fileupload": "^1.5.0",
+    "express-rate-limit": "^7.3.1",
+    "cookie": "^0.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "express-ws": "^5.0.2",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

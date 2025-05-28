@@ -1,0 +1,68 @@
+Mon, 22 Jul 2024 16:34:02 GMT:::
+
+RosinVault, Allotopia, GrowingHome, Created recording of history.  Now to have it viewable on Site!:;:
+
+
+Mon, 22 Jul 2024 17:21:46 GMT:::
+
+RosinVault, Allotopia, GrowingHome, added Rate Limiting to prevent ddos attacks.  No jamming us with spam.:;:
+
+
+Tue, 23 Jul 2024 20:41:11 GMT:::
+
+RosinVault, Allotopia, GrowingHome, Started Footer which will house option to see Updates:;:
+
+
+Sat, 27 Jul 2024 15:18:06 GMT:::
+
+RosinVault, Allotopia, GrowingHome, Converted underlying code to my language.  Everything 30x more efficient on average.:;:
+
+
+Sat, 27 Jul 2024 16:02:44 GMT:::
+
+RosinVault, Allotopia, Made top bar and bottom bar their own objects with an 'add' ability which allows them to scale nicely for yetunknown things that should be on them.:;:
+
+
+Sun, 28 Jul 2024 01:33:56 GMT:::
+
+RosinVault, Allotopia, GrowingHome, Now with a Button to save a backup which i will probably push 1 or more times per day :):;:
+
+
+Tue, 30 Jul 2024 20:47:41 GMT:::
+
+RosinVault, Allotopia, GrowingHome, View Counter, remembering if logged in between browsing, bare store page and Showotron (frontpage display) started.:;:
+
+
+Fri, 02 Aug 2024 01:44:39 GMT:::
+
+RosinVault, Allotopia, GrowingHome, the Showotron (Front page display slider) is up and displaying settable entries:;:
+
+
+Sun, 04 Aug 2024 20:28:05 GMT:::
+
+RosinVault, Allotopia, GrowingHome, Started individual Gallery page:;:
+
+
+Tue, 13 Aug 2024 16:37:30 GMT:::
+
+RosinVault, Allotopia, GrowingHome, Cookies and Cryptography up for good User Accounts.:;:
+
+
+Thu, 15 Aug 2024 18:31:18 GMT:::
+
+RosinVault, Allotopia, GrowingHome, Time and Coin Collection now up:;:
+
+
+Fri, 30 Aug 2024 15:36:36 GMT:::
+
+RosinVault, Allotopia, GrowingHome, 3D in:;:
+
+
+Tue, 03 Sep 2024 18:40:50 GMT:::
+
+RosinVault, Gamble collect animation up:;:
+
+
+Tue, 10 Sep 2024 22:17:39 GMT:::
+
+RosinVault, Allotopia, Gamble questions functional.
