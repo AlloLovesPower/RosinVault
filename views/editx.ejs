@@ -1,0 +1,2692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RosinVault</title>
+  </head>
+  <body><script>
+
+//////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+let Crystalline = {
+maaelle: function(){
+             let hematype = "div"
+             let hemax = 1/9
+             let hemay = 1/18
+             let hemw = 7/9
+             let hemh = 16/18
+              if(arguments.length>0){hematype = arguments[0]
+              if(arguments[0]=="aera"){hematype = "textarea"}}
+              if(arguments.length>1){hemax = arguments[1]}
+              if(arguments.length>2){hemay = arguments[2]}
+              if(arguments.length>3){hemw = arguments[3]}
+              if(arguments.length>4){hemh = arguments[4]}
+              let hema = document.createElement(hematype)
+              hema.hematype = hematype
+              if(hema.hematype == "div"){
+               hema.style.userSelect = "none"
+              }
+             this.raphos(hema)
+
+hema.dalcorsa("255,255,255,1").corsaera("0,0,0,1")
+if(hematype == "option"){
+arguments[1].ano(hema)
+}else{
+             this.lo(hema,hemax,hemay,hemw,hemh)
+}
+             if(arguments.length>5){arguments[5].ano(hema)}
+             
+hema.dalcorsa("0,0,0,0.3").aeracorsa("255,255,255,1")
+
+
+             return hema
+            },
+
+raphos: function(hem){
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hem.noselect = function(hema){
+               hema.style.userSelect = "none"
+          return hem}
+
+hem.border = function(radius,color,width,style){
+          hem.style.borderRadius = "7px"
+          hem.style.borderColor = "rgba(255,255,255,1)"
+          hem.style.borderWidth = "3px"
+          hem.style.borderStyle = "double"
+          if(arguments.length>0){hem.style.borderRadius = radius}
+           if(arguments.length>1){hem.style.borderColor = "rgba("+color+")"}
+           if(arguments.length>2){hem.style.borderWidth = width}
+           if(arguments.length>3){hem.style.borderStyle = style}
+           return hem
+         }
+
+         hem.flow = function(hema){if(hema=="o"||hema=="0"||hema==0||hema=="yes"||hema=="O"||hema==true){hem.style.overflow = "auto"}else{hem.style.overflow = "default"}
+hem.style.scrollBehavior = "smooth"
+          return hem}
+
+         hem.ano = function(){
+         for(this.iuuui=0;this.iuuui<arguments.length;this.iuuui++){
+           hem.appendChild(arguments[this.iuuui]) 
+          }
+          return hem
+         }
+
+         hem.lo = function(x,y,w,h){
+          this.lo(hem,x,y,w,h)
+return hem
+         }.bind(this)
+
+         hem.ona = function(){
+         for(this.iuuuui=0;this.iuuuui<arguments.length;this.iuuuui++){
+           hem.removeChild(arguments[this.iuuuui]) 
+          }
+          return hem
+         }
+
+         hem.font = function(hema){hem.style.fontFamily = hema
+          return hem
+          }
+
+          hem.eshe = function(hema){
+if(hem.hematype == "select"){
+hem.onchange = hema}else{
+hem.onclick = hema
+}
+          return hem
+          }
+         
+         
+         hem.dalcorsa = function(hema){if(hema.indexOf("/")==-1){hem.style.backgroundColor = "rgba("+hema+")"}else{hem.style.backgroundImage = "url("+hema+")"}
+         return hem
+         }
+
+hem.background = function(hema){if(hema.indexOf("/")==-1){hem.style.backgroundColor = "rgba("+hema+")"}else{hem.style.backgroundImage = "url("+hema+")"}
+         return hem
+         }
+
+hem.Background = function(hema){if(hema.indexOf("/")==-1){hem.style.backgroundColor = "rgba("+hema+")"}else{hem.style.backgroundImage = "url("+hema+")"}
+         return hem
+         }
+
+         hem.corsadal = function(hema){if(hema.indexOf("/")==-1){hem.style.backgroundColor = "rgba("+hema+")"}else{hem.style.backgroundImage = "url("+hema+")"} 
+         return hem
+         }
+         
+         
+         
+         
+         
+hem.vcenter = function(){hem.style.display = "flex"
+hem.style.justifyContent = "center"
+hem.style.alignItems = "center"
+         return hem
+         }
+
+hem.vcenterles = function(){hem.style.display = "flex"
+hem.style.justifyContent = "center"
+         return hem
+         }
+
+hem.vcenterphel = function(){hem.style.display = "flex"
+hem.style.alignItems = "center"
+         return hem
+         }
+
+hem.vsel = function(){hem.style.display = "flex"
+hem.style.justifyContent = "left"
+hem.style.textAlign = "left"
+         return hem
+         }
+
+hem.vles = function(){hem.style.display = "flex"
+hem.style.textAlign = "right"
+hem.style.justifyContent = "right"
+         return hem
+         }
+
+         
+      
+         
+         
+         hem.ray = function(hema){
+         if(hem.hematype == "textarea"){hem.value = hema}
+if(hem.hematype == "aera"){hem.value = hema}
+if(hem.hematype == "notaera"){hem.value = hema}
+if(hem.hematype == "select"){hem.value = hema}
+if(hem.hematype == "input"){hem.value = hema}
+if(hem.hematype == "div"){hem.innerHTML = hema}
+if(hem.hematype == "button"){hem.textContent = hema}
+if(hem.hematype == "option"){hem.textContent = hema
+hem.value = hema}
+         return hem
+         }
+
+
+
+
+  hem.dalcorsascroll = function(){hem.style.backgroundAttachment = "scroll"
+                                     
+         return hem
+         }
+
+hem.white = function(){hem.style.whiteSpace = "pre"
+                                     
+         return hem
+         }
+
+
+hem.dalcorsalscroll = function(){hem.style.backgroundAttachment = "fixed"
+                                      
+         return hem
+         }
+
+
+hem.dalcorsaliscroll = function(){hem.style.backgroundAttachment = "local"
+                                      
+         return hem
+         }
+
+
+hem.dalcorsasen = function(){hem.style.backgroundRepeat = "repeat"
+                                      
+         return hem
+         }
+hem.dalcorsalsen = function(){hem.style.backgroundRepeat = "no-repeat"
+                                      
+         return hem
+         }
+
+
+hem.dalcorsaeren = function(){hem.style.backgroundSize = "cover"
+                                      
+         return hem
+         }
+
+hem.dalcorsavcenter = function(){hem.style.backgroundPosition = "center"
+                                     
+         return hem
+         }
+
+hem.dalcorsaloeren = function(){hem.style.backgroundSize = "contain"
+                                      
+         return hem
+         }
+
+hem.dalcorsahem = function(){hem.style.backgroundSize = "100% 100%"
+                                      
+         return hem
+         }
+
+
+
+         hem.textEdge = function(hema){if(hema=="o"){hem.style.whiteSpace = "wrap"}
+                                       if(hema=="l"){hem.style.whiteSpace = "nowrap"}
+         return hem
+         }
+              
+
+hem.invis = function(){hem.style.display = "none"
+                                      
+         return hem
+         }
+hem.invisible = function(){hem.style.display = "none"
+                                      
+         return hem
+         }
+hem.vis = function(){hem.style.display = "flex"
+                                      
+         return hem
+         }
+
+hem.visible = function(){hem.style.display = "flex"
+                                      
+         return hem
+         }
+
+hem.koil = function(){hem.style.userSelect = "none"
+                                      
+         return hem
+         }
+
+
+
+hem.front = function(hemb){hem.style.zIndex = hemb
+                                      
+         return hem
+         }
+
+hem.dal = function(hemb){hem.type = hemb
+                                      
+         return hem
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hem.sunano = function(hema){
+               document.body.appendChild(hem)
+          return hem}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hem.sunaera = function(){
+if(arguments.length == 1){hem.innerHTML = arguments[0]
+         return hem
+         }
+if(arguments.length == 0 && hem.hematype == "textarea"){
+return hem.value
+}
+if(arguments.length == 0 && hem.hematype == "select"){
+return hem.value
+}
+if(arguments.length == 0 && hem.hematype == "input"){
+return hem.value
+}
+if(arguments.length == 0 && hem.hematype != "textarea"){
+         return hem.innerHTML
+         }
+}
+
+
+hem.hint = function(hema){hem.placeholder = hema 
+         return hem
+         }
+
+
+hem.aeradal = function(hema){hem.style.fontFamily = hema
+         return hem
+         }
+
+
+hem.aeraeshe = function(hema){hem.oninput = hema
+          return hem
+          }
+
+
+hem.corsaera = function(hema){
+hem.style.color = "rgba("+hema+")"
+         return hem
+         }
+
+
+
+hem.aeracorsa = function(hema){hem.style.color = "rgba("+hema+")" 
+         return hem
+         }
+hem.textColor = function(hema){hem.style.color = "rgba("+hema+")" 
+         return hem
+         }
+
+
+hem.aeraeren = function(hema){hem.style.fontSize = hema+"px"
+         return hem
+         }
+hem.textSize = function(hema){hem.style.fontSize = hema 
+         return hem
+         }
+
+
+
+hem.textAlign = function(hema){if(hema=="middle"){hem.style.textAlign = "center"}else{hem.style.textAlign = hema} 
+         return hem
+         }
+         hem.aeraAlign = function(hema){if(hema=="middle"){hem.style.textAlign = "center"}else{hem.style.textAlign = hema} 
+         return hem
+         }
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+hem.aeraglow = function(hema){hem.style.textShadow = "0px 0px 4px rgba(" + hema +")"
+         return hem
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hem.getWidth  = function(){
+let hema = hem.getBoundingClientRect()
+
+return hema.width
+}.bind(this)
+
+
+hem.getHeight  = function(){
+let hema = hem.getBoundingClientRect()
+
+return hema.height
+}.bind(this)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hem.rhapdal = function(hema){hem.style.borderStyle = hema 
+         return hem
+         }
+         hem.rhapcorsa = function(hema){hem.style.borderColor = "rgba("+hema+")" 
+         return hem
+         }
+         hem.rhaperen = function(hema){hem.style.borderWidth = hema
+         return hem
+         }
+
+hem.rhaprele = function(hema){hem.style.borderRadius = hema+"px"
+         return hem
+         }
+ 
+
+
+
+
+
+hem.borderradiuses = function(tl,tr,br,bl){
+hem.style.borderTopLeftRadius = tl+"px"
+hem.style.borderTopRightRadius = tr+"px"
+hem.style.borderBottomRightRadius = br+"px"
+hem.style.borderBottomLeftRadius = bl+"px"
+return hem
+}
+
+
+
+
+hem.rhap = function(radius,color,width,style){
+          hem.style.borderRadius = radius + "px"
+          hem.style.borderColor = "rgba("+color+")"
+          hem.style.borderWidth = width+"px"
+          hem.style.borderStyle = style
+           return hem
+         }
+
+
+hem.borhap = function(padding){
+          hem.style.padding = padding + "px"
+           return hem
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return hem
+        },
+
+
+melosiar: function(siar,hemfun){
+    var client = new XMLHttpRequest()
+     client.open('GET',siar)
+   client.onreadystatechange = function(){
+if(client.readyState == 4 && client.status == 200){hemfun(client.responseText)}}
+client.send()
+   },
+
+
+
+
+
+copyAssets: function(aera){Kt.copyAssets(aera)},
+
+
+hCopyAssets: function(aera){Kt.hCopyAssets(aera)},
+
+copyAssetsCal: function(aera){Kt.copyAssetsCal(aera)},
+
+
+hCopyAssetsCal: function(aera){Kt.hCopyAssetsCal(aera)},
+
+reloadprogramcal: function(){Kt.reloadprogramcal()},
+
+
+say: function(hem){Kt.say(hem)},
+
+
+
+
+loadfont: function(hem,hemb){let hema = new FontFace(hem,hemb)
+                hema.load().then(function(){document.fonts.add(hema)}.bind(hema))},
+
+        hemadal: function(hemziri){
+if(hemziri=="Lan"){
+
+          this.fonts = this.melosia("Dal/SunDal")
+                    for(this.i=0;this.i<this.fonts.length;this.i++){
+                        this.loadfont(this.fonts[this.i].substring(0,this.fonts[this.i].indexOf(".")),"url("+this.where+"/Dal/SunDal/"+this.fonts[this.i]+")")
+                                    }
+
+
+}
+
+
+
+
+
+if(hemziri=="Ki"){
+
+          this.fonts = this.melosia("Dal/SunDal")
+                    for(this.i=0;this.i<this.fonts.length;this.i++){
+                        this.loadfont(this.fonts[this.i].substring(0,this.fonts[this.i].indexOf(".")),"url("+this.where+"/Dal/SunDal/"+this.fonts[this.i]+")")
+                                    }
+
+
+}
+
+
+
+
+
+
+
+
+
+if(hemziri=="Cal"){
+
+          let fontss = this.melosia("Dal/SunDal")
+
+for(i=0;i<fontss.length;i++){
+
+this.loadfont(fontss[i].substring(0,fontss[i].indexOf(".")),"url(Crystalline/Dal/SunDal/"+fontss[i]+")")
+
+}
+
+}
+
+
+
+
+
+
+
+if(hemziri=="CalX"){
+
+          let fontss = this.hmelosia("assets")
+
+this.fonts = []
+
+for(i=0;i<fontss.length;i++){
+
+if(fontss[i].substring(0,9)=="DalSunDal"){
+this.fonts.push(fontss[i])
+
+}
+
+}
+
+                    for(this.i=0;this.i<this.fonts.length;this.i++){
+        
+                this.loadfont(this.fonts[this.i].substring(9,this.fonts[this.i].indexOf(".")),"url(assets/"+this.fonts[this.i]+")")
+                                    }
+}
+
+
+
+
+
+
+
+
+
+
+
+if(hemziri=="Kia"){
+
+          let fontss = this.hmelosia("assets")
+
+this.fonts = []
+
+for(i=0;i<fontss.length;i++){
+
+if(fontss[i].substring(0,9)=="DalSunDal"){
+this.fonts.push(fontss[i])
+
+}
+
+}
+
+                    for(this.i=0;this.i<this.fonts.length;this.i++){
+        
+                this.loadfont(this.fonts[this.i].substring(9,this.fonts[this.i].indexOf(".")),"url(assets/"+this.fonts[this.i]+")")
+                                    }
+}
+
+
+
+
+
+
+
+
+if(hemziri=="Betwyn"){
+
+          let fontss = this.hmelosia("assets")
+
+this.fonts = []
+
+for(i=0;i<fontss.length;i++){
+
+if(fontss[i].substring(0,9)=="DalSunDal"){
+this.fonts.push(fontss[i])
+
+}
+
+}
+
+                    for(this.i=0;this.i<this.fonts.length;this.i++){
+        
+                this.loadfont(this.fonts[this.i].substring(9,this.fonts[this.i].indexOf(".")),"url(assets/"+this.fonts[this.i]+")")
+                                    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        },
+
+
+
+downloadassets: function(hemlo,hemtani){Kt.downloadassets(hemlo,hemtani)},
+hseall: function(aera,siar){Kt.hseall(aera,siar)},
+hlseall: function(siar){return Kt.hlseall(siar)},
+seall: function(aera,siar){Kt.seall(aera,siar)},
+        seallsiar: function(siabe,siabo){Kt.seallsiar(siabe,siabo)},
+        rasiar: function(siabe){return Kt.rasiar(siabe)},
+hrasiar: function(siabe){return Kt.hrasiar(siabe)},
+rasia: function(siabe){return Kt.rasia(siabe)},
+        seallsia: function(siabe,siabo){Kt.seallsia(siabe,siabo)},
+celestiall: function(siabe,siabo){Kt.celestiall(siabe,siabo)},
+        seallver: function(siabe,siabo){Kt.seallver(siabe,siabo)},
+        kortanisia: function(siabe,siabo){Kt.kortanisia(siabe,siabo)},
+hkortanisia: function(siabe,siabo){Kt.hkortanisia(siabe,siabo)},
+        lseall: function(siar){return Kt.lseall(siar)},
+maasia: function(hem){Kt.maasia(hem)},
+        melosia: function(hem){return Kt.melosia(hem).split(",")},
+hmelosia: function(hem){return Kt.hmelosia(hem).split(",")},
+sunseall: function(aera,siar){Kt.sunseall(aera,siar)},
+sunlseall: function(siar){return Kt.sunlseall(siar)},
+        sunmelosia: function(hem){return Kt.sunmelosia(hem).split(",")},
+
+
+
+
+
+
+
+ekklinere: function(hemaera,hemekk){
+let sen = hemekk.indexOf(hemaera)
+if(sen != -1){
+  hemekk.splice(sen, 1)
+}
+return hemekk
+},
+ekklieren: function(hemaera,hemekk){
+hemekk.push(hemaera)
+return hemekk
+},
+ekklira: function(hemaera,hemekk){
+if(hemekk.includes(hemaera)){return "o"}else{return "l"}
+},
+
+
+componentToHex: function(c) {
+  var hex = c.toString(16)
+  return hex.length == 1 ? "0" + hex : hex
+},
+
+ rgbToHex: function(r, g, b) {
+  return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b)
+},
+
+
+
+
+
+kiDelete: function(){Kt.kieh(1,0)},
+            ki: function(hem){Kt.ki(hem)},
+            kiPaste: function(){Kt.kiPaste()},
+            kiCopy: function(){Kt.kiCopy()},
+            kiCut: function(){Kt.kiCut()},
+            kiSelectAll: function(){Kt.kiSelectAll()},
+            kiSelect: function(hemben,hemboda){Kt.kiSelect(hemben,hemboda)},
+            kiboda: function(hemdistance){return Kt.kiboda(hemdistance)},
+            kiben: function(hemdistance){return Kt.kiben(hemdistance)},
+            kieh: function(hemben,hemboda){Kt.kieh(hemben,hemboda)},
+            kiUp: function(){Kt.kiUp()},
+            kiDown: function(){Kt.kiDown()},
+            kiLeft: function(){Kt.kiLeft()},
+            kiRight: function(){Kt.kiRight()},
+            kiUndo: function(){Kt.kiUndo()},
+            kiRedo: function(){Kt.kiRedo()},
+    
+kiSelection: function(){return Kt.kiSelection()},
+
+
+
+gotowebpage: function(hem){Kt.gotowebpage(hem)},
+
+fate: function(hsen){
+let hema = Math.floor(Math.random()*hsen)
+return hema
+},
+
+     readasset: function(hem){
+return Kt.readasset(hem)
+}, 
+exportasset: function(hem,boda){
+Kt.exportasset(hem,boda)
+}, 
+        
+        
+        
+
+
+                     lo: function(hem,x,y,w,h){
+                        hem.style.position = "absolute"
+                        hem.style.left = this.conversion.percentstring(x)
+                        hem.style.right = this.conversion.percentstring(1-(x+w))
+                        hem.style.top = this.conversion.percentstring(y)
+                        hem.style.bottom = this.conversion.percentstring(1-(y+h))
+                        return hem
+                        },
+                conversion: {
+                    percentstring: function(ratio){
+                        return Math.round(ratio*100).toString()+"%"
+                    },
+                },
+
+
+
+
+   
+
+
+
+
+
+lohem: function(hem){
+let hema = document.getElementById(hem)
+
+this.raphos(hema)
+return hema
+},
+
+
+
+
+SenNow: function(){
+let hema = Date.now()
+hema = hema.toString()
+return hema
+},
+
+Senminutessince: function(since){
+let hema = this.SenNow()
+let hemaaa = parseInt(hema)-parseInt(since)
+return hemaaa
+},
+
+
+
+
+
+
+}
+
+let Kt = {
+
+
+
+
+
+
+
+
+
+
+say: function(hem){alert(hem)},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hseall: function(aera,siar){
+localStorage.setItem(siar,aera)
+},
+hlseall: function(siar){
+return localStorage.getItem(siar)
+},
+seall: function(aera,siar){
+localStorage.setItem(siar,aera)
+},
+lseall: function(siar){
+return localStorage.getItem(siar)
+},
+        seallsiar: function(siabe,siabo){},
+        rasiar: function(siabe){},
+rasia: function(siabe){},
+        seallsia: function(siabe,siabo){},
+        seallver: function(siabe,siabo){},
+        kortanisia: function(siabe,siabo){},
+        melosia: function(hem){},
+hmelosia: function(hem){},
+sunseall: function(aera,siar){},
+sunlseall: function(siar){},
+        sunmelosia: function(hem){},
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+window.mode = ""
+if(innerWidth > innerHeight){window.mode = "computer"}else{window.mode = "phone"}
+
+window.SunMohka = Crystalline.maaelle('div',0,0,1,1).sunano().front("1").dalcorsa("0,0,0,1")
+SunMohka.Aera = Crystalline.maaelle('div',0,1/24,1,22/24,SunMohka).dalcorsa("0,0,0,1")
+SunMohka.TopBar = Crystalline.maaelle('div',0,0,1,1/24,SunMohka).flow("o").rhap("7","255,255,255,1","1","solid").invis()
+SunMohka.TopBar.Entries = []
+SunMohka.TopBar.Add = function(hem){
+SunMohka.TopBar.vis()
+hem.lo((1/4)*SunMohka.TopBar.Entries.length,0,1/4,1)
+SunMohka.TopBar.ano(hem)
+SunMohka.TopBar.Entries.push(hem)
+}.bind(this)
+SunMohka.BottomBar = Crystalline.maaelle('div',0,23/24,1,1/24,SunMohka).flow("o").rhap("7","255,255,255,1","1","solid").invis()
+SunMohka.BottomBar.Entries = []
+SunMohka.BottomBar.Add = function(hem){
+SunMohka.BottomBar.vis()
+hem.lo((1/5)*SunMohka.BottomBar.Entries.length,0,1/5,1)
+SunMohka.BottomBar.ano(hem)
+SunMohka.BottomBar.Entries.push(hem)
+}.bind(this)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.Users = {}
+
+
+/*
+
+Users.viewUp = async function(){
+//Creatures.magicspell()
+await Creatures.magicspell("viewUp",{},Users.viewUpXX)  
+  }
+  
+Users.viewUpXX = async function(data){
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Users.signOut = function(){
+await Creatures.magicspell("signOut",{},function(data){alert(data.say)})
+}
+
+Users.signIn = async function(hname,hpass,hreferer){
+await Creatures.magicspell("signIn",{name:hname,pass:hpass,referer:hreferer},Users.signInXX)
+  
+Users.signInXX = async function(data){
+alert(data.say)
+if(data.say == "Account Created.  You are Signed In." || data.say == "You are Signed In."){
+SunMohka.SignInBar.signinliORusername.ray(data.name)
+SunMohka.SignInBar.signinliORusername.mode = "Account"
+SunMohka.SignInBar.abovepopupsignin.invis()
+}
+}
+
+
+
+
+
+
+
+Users.InviteButton = function(){
+let hema = Crystalline.maaelle('div',0,0,1,1)
+hema.setToInviteOnly = function(hem){
+
+}.bind(this)
+hema.inviteLink = ""
+return hema
+}.bind(this)
+
+
+
+Users.createSignInBar = function(cointype){
+SunMohka.SignInBar = Crystalline.maaelle('div',0,0,1,1)
+SunMohka.TopBar.Add(SunMohka.SignInBar)
+SunMohka.SignInBar.cointype = cointype
+
+SunMohka.SignInBar.coin = Crystalline.maaelle('div',0,0,1/4,1,SunMohka.SignInBar).dalcorsascroll().dalcorsaeren().dalcorsalsen()
+
+SunMohka.SignInBar.coinamount = Crystalline.maaelle('div',1/4,0,1/4,1,SunMohka.SignInBar).vcenter().ray("0")
+
+if(SunMohka.SignInBar.cointype.toUpperCase() == "S"){SunMohka.SignInBar.coin.dalcorsa("https://user-uploads.perchance.org/file/5107474554438d57be7152605ea67a78.png")}
+if(SunMohka.SignInBar.cointype.toUpperCase() == "PERSON"){SunMohka.SignInBar.coin.dalcorsa("https://user-uploads.perchance.org/file/837189de985fa03e9fb36adfbabf8c29.png")}
+
+SunMohka.SignInBar.signinliORusername = Crystalline.maaelle('div',2/4,0,2/4,1,SunMohka.SignInBar).dalcorsa("0,0,0,1").corsaera("255,255,255").rhap("7","255,255,255,1","1","solid").ray("SignIn").vcenter().eshe(function(){
+if(SunMohka.SignInBar.signinliORusername.mode == "SignIn"){
+SunMohka.SignInBar.abovepopupsignin.visible()
+}
+if(SunMohka.SignInBar.signinliORusername.mode == "Account"){
+Users.AccountMohka.visible()
+}
+}.bind(this))
+SunMohka.SignInBar.signinliORusername.mode = "SignIn"
+
+//if signed in
+/*
+SunMohka.SignInBar.signinliORusername.mode = "Account"
+SunMohka.SignInBar.signinliORusername.ray(hname)
+*/
+/*
+SunMohka.SignInBar.abovepopupsignin = Crystalline.maaelle('div',0,0,1,1).sunano().invis().front("100").dalcorsa("0,0,0,0.5")
+
+
+
+SunMohka.SignInBar.popupsignin = Crystalline.maaelle('div',0,0,1,1,SunMohka.SignInBar.abovepopupsignin).front("101").dalcorsa("0,0,0,1").corsaera("255,255,255,1")
+
+SunMohka.SignInBar.popupsignin.login = Crystalline.maaelle('aera',1/9,1/18,7/9,1/18,SunMohka.SignInBar.popupsignin).hint("Name").borhap("12")
+
+SunMohka.SignInBar.popupsignin.pass = Crystalline.maaelle('aera',1/9,3/18,7/9,1/18,SunMohka.SignInBar.popupsignin).hint("Password").borhap("12")
+
+
+
+SunMohka.SignInBar.popupsignin.referer = Crystalline.maaelle('aera',1/9,5/18,7/9,1/18,SunMohka.SignInBar.popupsignin).hint("referer").borhap("12")
+
+SunMohka.SignInBar.popupsignin.signinli = Crystalline.maaelle('div',1/9,7/18,7/9,1/18,SunMohka.SignInBar.popupsignin).eshe(function(){
+Users.in = SunMohka.SignInBar.popupsignin.login.value
+Users.signIn(SunMohka.SignInBar.popupsignin.login.value,SunMohka.SignInBar.popupsignin.pass.value,SunMohka.SignInBar.popupsignin.referer.value)
+}.bind(this)).ray("Enter").rhap("7","255,255,255,1","1","solid").borhap("12")
+return SunMohka.SignInBar
+}
+
+
+
+
+
+
+
+
+
+Users.AccountMohka = Crystalline.maaelle('div',0,0,1,1).invis().sunano().front("201").dalcorsa("0,0,0,1")
+Users.AccountMohka.returnLi = Crystalline.maaelle('div',0,0,1/9,1/12,Users.AccountMohka).ray("return").eshe(function(){
+Users.AccountMohka.invis()
+}.bind(this)).rhap("7","255,255,255,1","1","solid").dalcorsa("0,0,0,1").corsaera("255,255,255,1")
+
+Users.AccountMohka.unlogLi = Crystalline.maaelle('div',1/9,0,1/9,1/12,Users.AccountMohka).ray("LogOut").eshe(function(){
+SunMohka.SignInBar.signinliORusername.ray("SignIn")
+SunMohka.SignInBar.signinliORusername.mode = "SignIn"
+Users.AccountMohka.invis()
+Users.signOut()
+}.bind(this)).rhap("7","255,255,255,1","1","solid").dalcorsa("0,0,0,1").corsaera("255,255,255,1")
+
+Users.Inventory = Crystalline.maaelle('div',0,1/12,1/2,4/12,Users.AccountMohka)
+
+
+
+
+
+
+
+*/
+window.Creatures = {}
+
+Creatures.duels = []
+Creatures.createDuel = function(){}
+
+Creatures.getAccountInfo = function(){}
+
+Creatures.AskToBuyBooster = function(){}
+Creatures.AskForFreeBooster = function(){}
+Creatures.AskToEnterGame = function(){}
+Creatures.AskToTrade = function(){}
+
+
+
+
+
+
+
+
+
+Creatures.magicspell = async function(what,thing,next){ 
+    await fetch('https://rosinvault.glitch.me/'+what, { method: 'POST', headers: { 'Content-Type': 'application/json'}, body: JSON.stringify(thing)}).then(response => response.json()).then(data => next(data)).catch(error => alert(error))  
+  }
+
+/*
+Creatures.getUpdates = async function(){ 
+await Creatures.magicspell("getUpdates",{},Creatures.getUpdatesXX)
+  }
+  
+Creatures.getUpdatesXX = async function(data){
+Creatures.UpdatesMohka.aera.ray("")
+Creatures.UpdatesMohka.aera.entries = []
+let entries = data.entries.split(`:;:
+
+`)
+for(i=0;i<entries.length;i++){
+let ha = entries[i].split(`:::
+
+`)
+if(ha[1].indexOf("RosinVault, ") != -1){
+ha[1] = ha[1].replace("Allotopia, ","")
+ha[1] = ha[1].replace("RosinVault, ","")
+ha[1] = ha[1].replace("GrowingHome, ","")
+Creatures.UpdatesMohka.aera.entries[i] = Crystalline.maaelle('div',0,(1/6)*i,1,1/6,Creatures.UpdatesMohka.aera)
+Crystalline.maaelle('div',0,0,1/4,1,Creatures.UpdatesMohka.aera.entries[i]).ray(ha[0]).rhap("7","255,255,255,1","1","solid").corsaera("255,255,255,1").dalcorsa("0,0,0,1")
+ Crystalline.maaelle('div',1/4,0,3/4,1,Creatures.UpdatesMohka.aera.entries[i]).ray(ha[1]).rhap("7","255,255,255,1","1","solid").corsaera("255,255,255,1").dalcorsa("0,0,0,1")
+}
+}
+    }
+
+
+
+
+
+
+
+
+
+Creatures.UpdatesMohka = Crystalline.maaelle('div',0,0,1,1,SunMohka.Aera).dalcorsa("0,0,0,1").sunano().invis().front("50")
+
+Creatures.UpdatesMohka.supdate = ""
+
+Creatures.UpdatesMohka.getViewUpdates = async function(){
+//Creatures.magicspell()
+Creatures.magicspell("getViewUpdates",{},Creatures.UpdatesMohka.getViewUpdatesXX)
+  }
+  
+Creatures.UpdatesMohka.getViewUpdatesXX = async function(data){
+Creatures.UpdatesMohka.viewcount.ray("Views: "+data.views)
+}
+
+
+
+Creatures.UpdatesMohka.aera = Crystalline.maaelle('div',0,1/12,1,11/12,Creatures.UpdatesMohka).corsaera("255,255,255,1").flow("o")
+
+Creatures.UpdatesMohka.returnli = Crystalline.maaelle('div',0,0,1/8,1/12,Creatures.UpdatesMohka).corsaera("255,255,255,1").dalcorsa("0,0,0,1").rhap("7","255,255,255,1","1","solid").vcenter().ray("Return").eshe(function(){
+clearInterval(Creatures.UpdatesMohka.supdate)
+Creatures.UpdatesMohka.invis()
+}.bind(this))
+
+Creatures.UpdatesMohka.viewcount = Crystalline.maaelle('div',5/8,0,3/8,1/12,Creatures.UpdatesMohka).corsaera("255,255,255,1").dalcorsa("0,0,0,1").rhap("7","255,255,255,1","1","solid").vcenter()
+
+
+
+Creatures.addUpdatesBottomBar = function(){
+let hema = Crystalline.maaelle('div',0,0,1,1).dalcorsa("0,0,0,1").corsaera("255,255,255,1").rhap("7","255,255,255,1","1","solid").vcenter().eshe(function(){
+Creatures.UpdatesMohka.getViewUpdates()
+Creatures.UpdatesMohka.supdate = setInterval(function(){
+Creatures.UpdatesMohka.getViewUpdates()
+}.bind(this),5000)
+Creatures.getUpdates()
+Creatures.UpdatesMohka.visible()
+}.bind(this)).ray("Updates")
+SunMohka.BottomBar.Add(hema)
+}.bind(this)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let Comments = {}
+Comments.submit = function(hem,hsen){
+let ish = Crystalline.lseall("in")
+if(ish == "o"){
+let thing = {}
+thing.aera = hem
+thing.when = Date.now()
+thing.which = hsen
+thing.name = SunMohka.SignInBar.signinliORusername.sunaera()
+Creatures.magicspell("askToComment",thing,Comments.submitted)
+}
+
+}.bind(this)
+
+Comments.submitted = function(hem){
+alert("hi")
+}.bind(this)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Profile ={}
+Profile.referer = ""
+Profile.refercount = ""
+Profile.refercode = ""
+Profile.Comments = {}
+Profile.Comments.History = {}
+
+Profile.Comments.History.topRanked = function(){
+let hema = {}
+
+return hema
+}.bind(this)
+
+//Comment = (leaf rating system)
+
+
+
+
+
+
+
+
+
+
+
+
+let Showotron = {}
+Showotron.onSlide = 0
+Showotron.autoplaying = "o"
+Showotron.heartdrum = setInterval(function(){
+if(Showotron.autoplaying == "o"){}
+}.bind(this),3000)
+
+//lookup smoothscroll
+
+//time priority first
+
+Showotron.sliderele = []
+Showotron.seconds = 0
+Showotron.rele = setInterval(function(){for(i=0;i<Showotron.sliderele.length;i++){
+Showotron.sliderele[i]()
+}},1000)
+
+Showotron.CreateSlide = function(hema,time){
+let hemb = Crystalline.maaelle('div',0,0,1,1).dalcorsa("0,0,0,1")
+hemb.Title = Crystalline.maaelle('div',1/9,0,7/9,1/7,hemb).ray(hema.ShowotronTitle).vcenter()
+hemb.Image = Crystalline.maaelle('div',0,1/7,1,4/7,hemb).dalcorsa(hema.entryimage).dalcorsascroll().dalcorsaeren()
+hemb.Countdown = Crystalline.maaelle('div',1/9,2/7,7/9,2/7,hemb).vcenter()
+Showotron.sliderele.push(function(){
+let now = Math.round(Date.now()/1000)
+let when = time-now
+if(when > 0){
+let days = Math.floor(when/86400)
+when %= 86400
+let hours = Math.floor(when/3600)
+when %= 3600
+let minutes = Math.floor(when/60)
+when %= 60
+let seconds = when
+hemb.Countdown.white()
+hemb.Countdown.ray(`Days: <span style='color:rgb(100,255,100)'>`+days+`</span> Hours: <span style='color:rgb(100,255,100)'>`+hours+`</span> Minutes: <span style='color:rgb(100,255,100)'>`+minutes+`</span> Seconds: <span style='color:rgb(100,255,100)'>`+seconds+`</span>`)
+
+}else{
+hemb.Countdown.ray(`<span style='color:rgb(255,215,105)'>Just Released!</span>`)
+
+}
+})
+hemb.Description = Crystalline.maaelle('div',0,5/7,1,2/7,hemb).ray(hema.ShowotronDescription).vcenter()
+let hemlink = Crystalline.maaelle('div',0,0,1,1).dalcorsa(hema.entryimage).dalcorsascroll().dalcorsaeren()
+let hemlink2 = Crystalline.maaelle('a',0,0,1,1)
+Showotron.ShowotronPrime.slideHolder.add(hemb,hemlink,hemlink2)
+}.bind(this)
+
+Showotron.getSlidesFromServer = async function(){
+await Creatures.magicspell("getEntries",{},Showotron.getSlidesFromServerXX)   
+  }
+
+Showotron.getSlidesFromServerXX = async function(hem){
+let vslides = hem.entries.split(",")
+for(i=0;i<vslides.length;i++){
+Showotron.getSlideFromServer(vslides[i])
+}
+}.bind(this)
+
+
+
+Showotron.getSlideFromServer = async function(hem){
+await Creatures.magicspell("loadEntry",{entrylocation:hem},Showotron.getSlideFromServerXX)
+ }
+//await Creatures.magicspell
+
+Showotron.getSlideFromServerXX = async function(hem){
+let datas = hem.entry.split("~*^*~")
+let hema = {}
+hema.entrynumber = datas[0]
+hema.entryname = datas[1]
+hema.entryimage = datas[2]
+hema.entrydescription = datas[3]
+hema.entryattributes = datas[4]
+hema.entrytype = datas[5]
+hema.ekkattributes = [] 
+let vattribute = hema.entryattributes.split("~x*^*x~")
+for(i=0;i<vattribute.length;i++){
+let atr = vattribute[i].split("~!*^*!~")
+hema.ekkattributes.push(atr[1])
+}
+
+if(hema.entrytype == "Dab" && Showotron.ShowotronType == "Dab"){
+hema.Strains = hema.ekkattributes[0]
+hema.ReleaseDate = hema.ekkattributes[1]
+hema.ReleaseTime = hema.ekkattributes[2]
+hema.ShowotronTitle = hema.ekkattributes[3]
+hema.ShowotronDescription = hema.ekkattributes[4]
+hema.Price = hema.ekkattributes[5]
+hema.DaysBeforeReleaseAddToGalleryAndShowotron = hema.ekkattributes[6]
+hema.Amount = hema.ekkattributes[7]
+hema.Temperature = hema.ekkattributes[8]
+hema.Type = hema.ekkattributes[9]
+let nowdate = Date.now()
+let onShowotron = "l"
+let datelings = hema.ReleaseDate.split("-")
+let d1 = parseInt(datelings[0])
+let d2 = parseInt(datelings[1])-1
+let d3 = parseInt(datelings[2])
+let parsedTime = hema.ReleaseTime.split(":")
+let hour = parseInt(parsedTime[0])
+let minute = parsedTime[1]
+let day = parseInt(Date.UTC(d1,d2,d3,hour,minute))
+let noww = Date.now()
+let now = parseInt(noww)
+let daysbefore = parseInt(hema.DaysBeforeReleaseAddToGalleryAndShowotron) * 24 * 60 * 60 * 1000
+if(day-daysbefore < now && day > now - (24*60*60*1000)){
+onShowotron = "o"
+}
+if(onShowotron == "o"){
+let time = Math.round(day/1000)
+Showotron.CreateSlide(hema,time)
+
+}
+}//Dab
+
+
+
+
+
+if(hema.entrytype == "Booster" && Showotron.ShowotronType == "Booster"){
+hema.Cards = hema.ekkattributes[0]
+hema.ReleaseDate = hema.ekkattributes[1]
+hema.ReleaseTime = hema.ekkattributes[2]
+hema.ShowotronTitle = hema.ekkattributes[3]
+hema.ShowotronDescription = hema.ekkattributes[4]
+hema.Price = hema.ekkattributes[5]
+hema.DaysBeforeReleaseAddToGalleryAndShowotron = hema.ekkattributes[6]
+hema.Amount = hema.ekkattributes[7]
+hema.Mutations = hema.ekkattributes[8]
+hema.Type = hema.ekkattributes[9]
+let nowdate = Date.now()
+let onShowotron = "l"
+let datelings = hema.ReleaseDate.split("-")
+let d1 = parseInt(datelings[0])
+let d2 = parseInt(datelings[1])-1
+let d3 = parseInt(datelings[2])
+let parsedTime = hema.ReleaseTime.split(":")
+let hour = parseInt(parsedTime[0])
+let minute = parsedTime[1]
+let day = parseInt(Date.UTC(d1,d2,d3,hour,minute))
+let noww = Date.now()
+let now = parseInt(noww)
+let daysbefore = parseInt(hema.DaysBeforeReleaseAddToGalleryAndShowotron) * 24 * 60 * 60 * 1000
+if(day-daysbefore < now && day > now - (24*60*60*1000)){
+onShowotron = "o"
+}
+if(onShowotron == "o"){
+let time = Math.round(day/1000)
+Showotron.CreateSlide(hema,time)
+
+}
+}//Booster
+
+
+
+
+
+
+
+}.bind(this)
+
+
+
+
+
+
+
+Showotron.getGalleryList   =   {}
+Showotron.getGalleryList.Dab = async function(){
+await Creatures.magicspell("getEntries",{},Showotron.getGalleryList.DabXX)
+//await Creatures.magicspell
+}.bind(this)
+
+Showotron.getGalleryList.Card = async function(){
+await Creatures.magicspell("getEntries",{},Showotron.getGalleryList.CardXX)
+}.bind(this)
+
+
+
+Showotron.getGalleryList.DabXX = async function(data){
+let vslides = data.entries.split(",")
+for(i=0;i<vslides.length;i++){
+Showotron.getGalleryList.nDab(vslides[i])
+}
+}.bind(this)
+
+Showotron.getGalleryList.CardXX = async function(data){
+let vslides = data.entries.split(",")
+for(i=0;i<vslides.length;i++){
+Showotron.getGalleryList.nCard(vslides[i])
+}
+}.bind(this)
+
+Showotron.getGalleryList.nDab = async function(hem){
+//await Creatures.magicspell
+await Creatures.magicspell("loadEntry",{entrylocation:hem},Showotron.getGalleryList.nDabXX)
+  }
+Showotron.getGalleryList.nDabXX = async function(hem){
+let datas = hem.entry.split("~*^*~")
+let hema = {}
+hema.entrynumber = datas[0]
+hema.entryname = datas[1]
+hema.entryimage = datas[2]
+hema.entrydescription = datas[3]
+hema.entryattributes = datas[4]
+hema.entrytype = datas[5]
+hema.ekkattributes = [] 
+let vattribute = hema.entryattributes.split("~x*^*x~")
+for(i=0;i<vattribute.length;i++){
+let atr = vattribute[i].split("~!*^*!~")
+hema.ekkattributes.push(atr[1])
+}
+
+if(hema.entrytype == "Dab"){
+hema.Strains = hema.ekkattributes[0]
+hema.ReleaseDate = hema.ekkattributes[1]
+hema.ReleaseTime = hema.ekkattributes[2]
+hema.ShowotronTitle = hema.ekkattributes[3]
+hema.ShowotronDescription = hema.ekkattributes[4]
+hema.Price = hema.ekkattributes[5]
+hema.DaysBeforeReleaseAddToGalleryAndShowotron = hema.ekkattributes[6]
+hema.Amount = hema.ekkattributes[7]
+hema.Temperature = hema.ekkattributes[8]
+hema.Type = hema.ekkattributes[9]
+let nowdate = Date.now()
+let onShowotron = "l"
+let datelings = hema.ReleaseDate.split("-")
+let d1 = parseInt(datelings[0])
+let d2 = parseInt(datelings[1])-1
+let d3 = parseInt(datelings[2])
+let parsedTime = hema.ReleaseTime.split(":")
+let hour = parseInt(parsedTime[0])
+let minute = parsedTime[1]
+hema.day = parseInt(Date.UTC(d1,d2,d3,hour,minute))
+let noww = Date.now()
+let now = parseInt(noww)
+let daysbefore = parseInt(hema.DaysBeforeReleaseAddToGalleryAndShowotron) * 24 * 60 * 60 * 1000
+if(hema.day < now){
+let time = Math.round(hema.day/1000)
+Showotron.getGalleryList.maaEntry(hema)
+
+}
+}//Dab
+
+}.bind(this)
+
+Showotron.getGalleryList.nCard = async function(hem){
+await Creatures.magicspell("loadEntry",{entrylocation:hem},Showotron.getGalleryList.nCardXX)
+  }
+Showotron.getGalleryList.nCardXX = async function(hem){
+let datas = hem.entry.split("~*^*~")
+let hema = {}
+hema.entrynumber = datas[0]
+hema.entryname = datas[1]
+hema.entryimage = datas[2]
+hema.entrydescription = datas[3]
+hema.entryattributes = datas[4]
+hema.entrytype = datas[5]
+hema.ekkattributes = [] 
+let vattribute = hema.entryattributes.split("~x*^*x~")
+for(i=0;i<vattribute.length;i++){
+let atr = vattribute[i].split("~!*^*!~")
+hema.ekkattributes.push(atr[1])
+}
+
+if(hema.entrytype == "Card"){
+hema.CardType = hema.ekkattributes[0]
+hema.Role = hema.ekkattributes[1]
+hema.Stats = hema.ekkattributes[2]
+hema.Ability1 = hema.ekkattributes[3]
+hema.Ability2 = hema.ekkattributes[4]
+hema.Quotes = hema.ekkattributes[5]
+hema.Rarity = hema.ekkattributes[6]
+Showotron.getGalleryList.maaEntry(hema)
+}//Card
+
+}.bind(this)
+
+Showotron.getGalleryList.maaEntry = function(hem){
+Showotron.mainGallery.fullList.push(hem)
+}.bind(this)
+
+
+
+Showotron.createDabGalleryPage = function(mohka){
+Showotron.mainGallery = Showotron.createProductsMohkaDab()
+Showotron.mainGallery.viewer.lo(0,0,1,6/10)
+Showotron.mainGallery.lo(0,6/10,1,4/10)
+mohka.ano(Showotron.mainGallery)
+mohka.ano(Showotron.mainGallery.viewer)
+}.bind(this)
+
+Showotron.createProductsMohkaDab = function(){
+let hema = Showotron.createProductsMohka()
+hema.setItemType("Dab")
+hema.ordertypeMohka.addType("New")
+hema.ordertypeMohka.addType("Old")
+hema.ordertypeMohka.addType("$$$")
+hema.ordertypeMohka.addType("$")
+hema.ordertypeMohka.addType("#")
+Showotron.getGalleryList.Dab()
+setTimeout(function(){hema.fresh()},1000)
+return hema
+}.bind(this)
+
+Showotron.createProductsMohkaCard = function(){
+let hema = Showotron.createProductsMohka()
+hema.setItemType("Card")
+hema.ordertypeMohka.addType("New")
+hema.ordertypeMohka.addType("Old")
+hema.ordertypeMohka.addType("$$$")
+hema.ordertypeMohka.addType("$")
+hema.ordertypeMohka.addType("#")
+Showotron.getGalleryList.Card()
+setTimeout(function(){hema.fresh()},1000)
+return hema
+}.bind(this)
+
+Showotron.createProductsMohka = function(){
+let hema = Crystalline.maaelle('div',0,0,1,1).dalcorsa("0,0,0,1").rhap("0","255,255,255,1","1","solid")
+hema.fullList = []
+hema.viewer = Crystalline.maaelle('div',0,0,1,1).rhap("0","255,255,255,1","1","solid").flow("o")
+hema.itemType = ""
+hema.ordertypeMohka = Crystalline.maaelle('div',0,0,2/9,1,hema).flow("o").rhap("0","255,255,255,1","1","solid")
+hema.searchbar = Crystalline.maaelle('aera',2/9,0,7/9,1/9,hema).rhap("0","255,255,255,1","1","solid").hint("Search").aeraeshe(function(){
+hema.order(hema.onordertype)
+}.bind(this))
+hema.results = Crystalline.maaelle('div',2/9,1/9,7/9,8/9,hema)
+
+hema.setItemType = function(hem){
+hema.itemType = hem
+}.bind(this)
+
+hema.ordertypeMohka.ordertypes = []
+hema.ordertypeMohka.addType = function(htype){
+let hemb = Crystalline.maaelle('div',0,(1/9)*hema.ordertypeMohka.ordertypes.length,1,1/9,hema.ordertypeMohka).rhap("7","255,255,255,1","1","solid").vcenter().ray(htype).eshe(function(){
+for(i=0;i<hema.ordertypeMohka.ordertypes.length;i++){
+hema.ordertypeMohka.ordertypes[i].corsaera("255,255,255,1")
+}
+hemb.corsaera("0,255,0,1")
+hema.order(htype)
+}.bind(this))
+
+hema.ordertypeMohka.ordertypes.push(hemb)
+}.bind(this)
+
+hema.order = function(htype){
+hema.onordertype = htype
+let stringIncludes = hema.searchbar.sunaera()
+//Showotron.mainGallery.fullList
+Showotron.lista = []
+hema.results.ray("")
+
+let S2 = []
+for(i=0;i<Showotron.mainGallery.fullList.length;i++){
+
+
+}
+
+
+
+
+let ireally = 0
+for(i=0;i<Showotron.mainGallery.fullList.length;i++){
+let hemx = Showotron.mainGallery.fullList[i]
+if(hemx.entryname.toLowerCase().indexOf(stringIncludes.toLowerCase()) != -1){
+
+
+let hemc = Crystalline.maaelle('div',0,(1/9)*ireally,1,1/9,hema.results).vcenter().ray(hemx.entryname).eshe(function(){
+for(ii=0;ii<Showotron.lista.length;ii++){
+Showotron.lista[ii].corsaera("255,255,255,1")
+}
+hemc.corsaera("0,255,0,1")
+hema.viewer.ray("")
+let hemm = Crystalline.maaelle('div',3/9,0,3/9,1/9,hema.viewer).ray(hemx.entryname).vcenter()
+hemm.htype = Crystalline.maaelle('div',0/9,0,3/9,1/9,hema.viewer).ray(hemx.Type).vcenter()
+if(hemx.Type=="Indica"){hemm.htype.corsaera("5,30,255,1")}
+if(hemx.Type=="Hybrid"){hemm.htype.corsaera("163,5,255,1")}
+if(hemx.Type=="Sativa"){hemm.htype.corsaera("255,5,5,1")}
+
+hemm.img = Crystalline.maaelle('div',0,1/9,1,4/9,hema.viewer).dalcorsa(hemx.entryimage).dalcorsascroll().dalcorsaeren()
+hemm.releasedate = Crystalline.maaelle('div',0,5/9,1/3,1/18,hema.viewer).ray("<span style='color:#03c4ff'>"+hemx.ReleaseDate+"</span>").vcenter()
+hemm.price = Crystalline.maaelle('div',1/3,5/9,1/3,1/18,hema.viewer).ray("ShareCost: <span style='color:#03ff52'>"+hemx.Price+"</span>").vcenter()
+hemm.amount = Crystalline.maaelle('div',2/3,5/9,1/3,1/18,hema.viewer).ray("InStock: <span style='color:#fbff03'>"+hemx.Amount+"</span>").vcenter()
+
+hemm.strains = Crystalline.maaelle('div',0,11/18,1/3,1/18,hema.viewer).ray("<span style='color:#f53842'>"+hemx.Strains+"</span>").vcenter()
+hemm.temperature = Crystalline.maaelle('div',1/3,11/18,1/3,1/18,hema.viewer).ray("<span style='color:#f5b038'>"+hemx.Temperature+"°f"+"</span>").vcenter()
+hemm.oncomments = "l"
+hemm.commentsli = Crystalline.maaelle('div',2/3,11/18,1/3,1/18,hema.viewer).ray("Comments").vcenter().rhap("7","255,255,255,1","1","solid").eshe(function(){
+
+if(hemm.oncomments == "l"){
+hema.ordertypeMohka.invis()
+hema.searchbar.invis()
+hema.results.invis()
+hemm.commentsmohka.vis()
+hemm.oncomments = "o"
+}else{
+hema.ordertypeMohka.vis()
+hema.searchbar.vis()
+hema.results.vis()
+hemm.commentsmohka.invis()
+hemm.oncomments = "l"
+
+}
+
+
+}.bind(this))
+
+hemm.description = Crystalline.maaelle('div',0,6/9,1,3/9,hema.viewer).ray(hemx.entrydescription).vcenter()
+hemm.commenting = "l"
+hemm.commentsmohka = Crystalline.maaelle('div',0,0,1,1,hema).vcenter().invis()
+hemm.commentsmohka.commentaera = Crystalline.maaelle('aera',0,1/12,1,11/12,hemm.commentsmohka).rhap("7","255,255,255,1","1","solid").invis()
+hemm.commentsmohka.commentli = Crystalline.maaelle('div',2/9,0,5/9,1/12,hemm.commentsmohka).rhap("7","255,255,255,1","1","solid").invis().ray("Submit Comment").eshe(function(){
+let comment = hemm.commentsmohka.commentaera.sunaera()
+Comments.submit(comment,hemx.entrynumber)
+
+}.bind(this))
+hemm.commentsmohka.commentsmohka = Crystalline.maaelle('div',0,1/12,1,11/12,hemm.commentsmohka).rhap("7","255,255,255,1","1","solid")
+hemm.commentsmohka.returnli = Crystalline.maaelle('div',7/9,0,2/9,1/12,hemm.commentsmohka).ray("return").eshe(function(){
+hema.ordertypeMohka.vis()
+hema.searchbar.vis()
+hema.results.vis()
+hemm.commentsmohka.invis()
+hemm.oncomments = "l"
+}.bind(this)).rhap("7","255,255,255,1","1","solid")
+
+hemm.commentsmohka.erenlupeli = Crystalline.maaelle('div',0/9,0,2/9,1/12,hemm.commentsmohka).ray("NewComment").eshe(function(){
+if(hemm.commenting == "l"){
+hemm.commentsmohka.commentaera.vis()
+hemm.commentsmohka.commentli.vis()
+hemm.commentsmohka.commentsmohka.invis()
+hemm.commenting = "o"
+}else{
+hemm.commentsmohka.commentaera.invis()
+hemm.commentsmohka.commentli.invis()
+hemm.commentsmohka.commentsmohka.vis()
+hemm.commenting = "l"
+}
+
+}.bind(this)).rhap("7","255,255,255,1","1","solid")
+
+
+
+
+}.bind(this))
+Showotron.lista.push(hemc)
+ireally++
+}
+
+}
+
+}.bind(this)
+
+hema.fresh = function(){
+hema.ordertypeMohka.ordertypes[0].click()
+Showotron.lista[0].click()
+//get slides
+}.bind(this)
+
+return hema
+}.bind(this)
+
+
+
+
+
+
+
+
+Showotron.CreateShowotron = function(hemtype){
+Showotron.ShowotronType = hemtype
+Showotron.ShowotronPrime = Crystalline.maaelle('div',0,0,1,5/12,SunMohka.Aera).rhap("0","255,255,255,1","1","solid")
+Showotron.ShowotronPrime.slideHolder = Crystalline.maaelle('div',0,0,16/18,1,Showotron.ShowotronPrime).dalcorsa("255,255,255,1").front("3").flow("o")
+Showotron.ShowotronPrime.slideHolder.slides = []
+
+Showotron.ShowotronPrime.slideHolder.add = function(hem,hemlink,hemlink2){
+hem.id = "Slide"+Showotron.ShowotronPrime.slideHolder.slides.length
+hem.lo(Showotron.ShowotronPrime.slideHolder.slides.length,0,1,1)
+Showotron.ShowotronPrime.slideHolder.ano(hem)
+hemlink.lo(0,(1/10)+(1/5)*Showotron.ShowotronPrime.slideHolder.slides.length,1,1/10)
+hemlink2.href = "#Slide"+Showotron.ShowotronPrime.slideHolder.slides.length
+hemlink.eshe(function(){
+
+hemlink2.click()
+}.bind(this))
+hem.eshe(function(){
+alert("hi")
+
+}.bind(this))
+Showotron.ShowotronPrime.vli.ano(hemlink)
+Showotron.ShowotronPrime.slideHolder.slides.push(hem)
+}.bind(this)
+
+Showotron.ShowotronPrime.vli = Crystalline.maaelle('div',16/18,0,2/18,1,Showotron.ShowotronPrime).dalcorsa("0,0,0,0.8").flow("o").front("5")
+Showotron.getSlidesFromServer()
+return Showotron.ShowotronPrime
+}.bind(this)
+
+
+
+
+
+
+
+
+
+
+
+let Store = {}
+Store.createStore = function(){
+SunMohka.StoreLi = Crystalline.maaelle('div',0,0,1,1).rhap("7","255,255,255,1","1","solid").dalcorsa("0,0,0,1").vcenter().corsaera("255,255,255,1").ray("Store").eshe(function(){
+SunMohka.StoreMohka.vis()
+}.bind(this))
+SunMohka.StoreMohka = Crystalline.maaelle('div',0,0,1,1).sunano().dalcorsa("0,0,0,1").corsaera("255,255,255,1").front("203").invis()
+SunMohka.StoreMohka.returnLi = Crystalline.maaelle('div',0,0,1/9,1/12,SunMohka.StoreMohka).ray("return").vcenter().dalcorsa("0,0,0,1").corsaera("255,255,255,1").rhap("7","255,255,255,1","1","solid").eshe(function(){
+SunMohka.StoreMohka.invis()
+}.bind(this))
+
+
+SunMohka.TopBar.Add(SunMohka.StoreLi)
+return SunMohka.StoreLi
+}.bind(this)
+
+
+
+
+
+*/
+
+
+/*
+
+Showotron.getSlideFromServerXX = async function(hem){
+let datas = hem.entry.split("~*^*~")
+let hema = {}
+hema.entrynumber = datas[0]
+hema.entryname = datas[1]
+hema.entryimage = datas[2]
+hema.entrydescription = datas[3]
+hema.entryattributes = datas[4]
+hema.entrytype = datas[5]
+hema.ekkattributes = [] 
+let vattribute = entryattributes.split("~x*^*x~")
+for(i=0;i<vattribute.length;i++){
+let atr = vattribute[i].split("~!*^*!~")
+hema.ekkattributes.push(atr[1])
+}
+
+if(entrytype == "Dab"){
+hema.Strains = hema.ekkattributes[0]
+hema.ReleaseDate = hema.ekkattributes[1]
+hema.ShowotronTitle = hema.ekkattributes[2]
+hema.ShowotronDescription = hema.ekkattributes[3]
+hema.Price = hema.ekkattributes[4]
+hema.DaysBeforeReleaseAddToGalleryAndShowotron = hema.ekkattributes[5]
+}
+
+Showotron.ShowotronPrime
+}.bind(this)*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+Creatures.createTimeBar = function(){
+let hema = Crystalline.maaelle('div',0,0,1,1)
+hema.timeshow = Crystalline.maaelle('div',0,1/4,1,1/4,hema).rhap("7","255,255,255,1","1","solid")
+hema.barhour = Crystalline.maaelle('div',0,1/4,1/6,1/4,hema)
+hema.bartwohours = Crystalline.maaelle('div',1/6,1/4,1/6,1/4,hema)
+hema.barthreehours = Crystalline.maaelle('div',2/6,1/4,1/6,1/4,hema)
+hema.barsixhours = Crystalline.maaelle('div',3/6,1/4,1/6,1/4,hema)
+hema.bartwelvehours = Crystalline.maaelle('div',4/6,1/4,1/6,1/4,hema)
+hema.bartwentyfourhours = Crystalline.maaelle('div',5/6,1/4,1/6,1/4,hema)
+
+hema.reward = {}
+hema.reward.lihour = Crystalline.maaelle('div',0/6+(1/12),2/4,1/12,1/8,hema).rhap("7","255,255,255,1","1","solid").ray("1Hour")
+hema.reward.litwohours = Crystalline.maaelle('div',1/6+(1/12),2/4,1/12,1/8,hema).rhap("7","255,255,255,1","1","solid").ray("2Hours")
+hema.reward.lithreehours = Crystalline.maaelle('div',2/6+(1/12),2/4,1/12,1/8,hema).rhap("7","255,255,255,1","1","solid").ray("3Hours")
+hema.reward.lisixhours = Crystalline.maaelle('div',3/6+(1/12),2/4,1/12,1/8,hema).rhap("7","255,255,255,1","1","solid").ray("6Hours")
+hema.reward.litwelvehours = Crystalline.maaelle('div',4/6+(1/12),2/4,1/12,1/8,hema).rhap("7","255,255,255,1","1","solid").ray("12Hours")
+return hema
+}.bind(this)
+
+
+Creatures.createGamble = function(){
+let hema = Crystalline.maaelle('div',0,0,1,1)
+hema.question = Crystalline.maaelle('div',0,1/7,1,1/7,hema).ray("Question goes here ???").vcenter()
+hema.questionreroll = Crystalline.maaelle('div',0,0,1/7,1/7,hema).ray("Reroll").vcenter().rhap("7","255,255,255,1","1","solid")
+hema.Yes = Crystalline.maaelle('div',2/9,3/7,2/9,1/7,hema).rhap("7","255,255,255,1","1","solid").ray("Yes").vcenter()
+hema.No = Crystalline.maaelle('div',5/9,3/7,2/9,1/7,hema).rhap("7","255,255,255,1","1","solid").ray("No").vcenter()
+hema.Amount = Crystalline.maaelle("aera",3/9,4/7,3/9,1/7,hema).rhap("7","255,255,255,1","1","solid").hint("Amount Wagered").vcenter()
+return hema
+}.bind(this)
+
+
+
+
+
+Creatures.createReferalTree = function(){
+let hema = {}
+
+return hema
+}.bind(this)
+
+*/
+SunMohka.account = Crystalline.maaelle('div',0,0,1,1/12,SunMohka)
+SunMohka.account.login = Crystalline.maaelle('aera',0,0,1,1,SunMohka.account).hint("name")
+SunMohka.account.pass = Crystalline.maaelle('aera',1/3,0,1/3,1,SunMohka.account).hint("pass")
+SunMohka.account.update = Crystalline.maaelle('form',2/3,0,1/3,1,SunMohka.account)
+SunMohka.account.update.ref = "uploadForm"
+SunMohka.account.update.id="uploadForm"
+SunMohka.account.update.action = "https://rosinvault.glitch.me/upload"
+SunMohka.account.update.method = "post"
+SunMohka.account.update.enctype = "multipart/form-data"
+SunMohka.account.update.uploadli = Crystalline.maaelle('input',0,0,1,1/2,SunMohka.account.update)
+SunMohka.account.update.uploadli.type = "file"
+SunMohka.account.update.uploadli.name = "sampleFile"
+SunMohka.account.update.uploadko = Crystalline.maaelle('input',0,1/2,1,1/2,SunMohka.account.update)
+SunMohka.account.update.uploadko.type= "submit"
+SunMohka.account.update.uploadko.value = "Upload!"
+
+SunMohka.EntryEditMohka = Crystalline.maaelle('div',0,1/12,1,10/12,SunMohka)
+SunMohka.EntryEditMohka.entrynumber = Crystalline.maaelle('aera',0,0,1/4,1/5,SunMohka.EntryEditMohka).hint("number")
+SunMohka.EntryEditMohka.entryname = Crystalline.maaelle('aera',1/4,0,1/4,1/5,SunMohka.EntryEditMohka).hint("name")
+SunMohka.EntryEditMohka.entryimagelink = Crystalline.maaelle('aera',2/4,0,1/4,1/5,SunMohka.EntryEditMohka).hint("image")
+SunMohka.EntryEditMohka.seallli = Crystalline.maaelle('div',3/4,0,1/4,1/5,SunMohka.EntryEditMohka).vcenter().rhap("7","255,255,255,1","1","solid").ray("save").eshe(function(){
+Entries.Save()
+}.bind(this))
+SunMohka.EntryEditMohka.entrydescription = Crystalline.maaelle('aera',0,1/5,1/2,4/5,SunMohka.EntryEditMohka).hint("description")
+
+SunMohka.EntryEditMohka.attributeselector = Crystalline.maaelle('select',1/2,3/10,1/2,1/10,SunMohka.EntryEditMohka).eshe(function(){
+let sunaera = SunMohka.EntryEditMohka.attributeselector.sunaera()
+Entries.preset(sunaera)
+}.bind(this))
+
+Crystalline.maaelle('option',SunMohka.EntryEditMohka.attributeselector).ray("Select Preset")
+Crystalline.maaelle('option',SunMohka.EntryEditMohka.attributeselector).ray("none")
+Crystalline.maaelle('option',SunMohka.EntryEditMohka.attributeselector).ray("Event")
+Crystalline.maaelle('option',SunMohka.EntryEditMohka.attributeselector).ray("Dab")
+Crystalline.maaelle('option',SunMohka.EntryEditMohka.attributeselector).ray("HomeImg")
+Crystalline.maaelle('option',SunMohka.EntryEditMohka.attributeselector).ray("Card")
+Crystalline.maaelle('option',SunMohka.EntryEditMohka.attributeselector).ray("Booster")
+
+SunMohka.EntryEditMohka.attributesmohka = Crystalline.maaelle('div',1/2,2/5,1/2,3/5,SunMohka.EntryEditMohka).flow("o")
+
+
+SunMohka.vEntryMohka = Crystalline.maaelle('div',0,11/12,1,10/12,SunMohka).flow("o")
+
+  
+  
+
+
+
+
+
+
+
+
+window.Entries = {}
+Entries.entryattributetitles = []
+Entries.entryattributedescriptions = []
+Entries.entrylist = []
+
+Entries.start = async function(){
+await Entries.loadEntries()
+}
+
+Entries.loadEntries = async function(){
+SunMohka.vEntryMohka.ray("")
+Entries.getEntriesX()
+}
+
+ Entries.getEntriesX = async function(){ 
+Entries.entrylist = []
+    await fetch('https://rosinvault.glitch.me/getEntries', { method: 'POST', headers: { 'Content-Type': 'application/json'}, body: JSON.stringify({mayipleasehasinfos:"yes"})}).then(response => response.json()).then(data => Entries.getEntriesXX(data)).catch(error => alert(error))  
+  }
+  
+Entries.getEntriesXX = async function(data){
+    if(data.entries.indexOf(",") != -1){
+        let hem = data.entries.split(",")
+for(let i = 0; i < hem.length; i++){
+await Entries.loadEntryX(hem[i])
+} 
+  }  
+if(data.entries.length == 1){await Entries.loadEntryX(data.entries)}
+    }
+
+Entries.loadEntryX = async function(entrylocation){ 
+    await fetch('https://rosinvault.glitch.me/loadEntry', { method: 'POST', headers: { 'Content-Type': 'application/json'}, body: JSON.stringify({entrylocation:entrylocation})}).then(response => response.json()).then(data => Entries.loadEntryXX(data)).catch(error => alert(error))
+  }
+
+Entries.loadEntryXX = function(data){
+	Entries.loadEntry(data.entry)
+	}
+
+Entries.loadEntry = function(entry){
+if(entry.indexOf("~*^*~") != -1){
+let entrydatas = entry.split("~*^*~")
+let entrynumber = entrydatas[0]
+let entryname = "thing"
+if(entrydatas.length > 1){entryname = entrydatas[1]}
+
+let entryimagelink = "thing"
+if(entrydatas.length > 2){entryimagelink = entrydatas[2]}
+
+let entrydescription = "thing"
+if(entrydatas.length > 3){entrydescription = entrydatas[3]}
+
+let entryattributesstring = "a~!*^*!~0~x*^*x~b~!*^*!~0"
+if(entrydatas.length > 4){entryattributesstring = entrydatas[4]}
+
+let entrytype = "none"
+if(entrydatas.length > 5){entrytype = entrydatas[5]}
+
+
+
+let entryattributes = entryattributesstring.split("~x*^*x~")
+let entrymohka = Crystalline.maaelle('div',0,Entries.entrylist.length,1,1,SunMohka.vEntryMohka).rhap("7","0,255,0,1","1","solid").dalcorsa("0,0,0,1").corsaera("255,255,255,1")
+Entries.entrylist.push(entrymohka)
+
+entrymohka.name = Crystalline.maaelle('div',1/5,0,3/5,1/8,entrymohka).ray(entryname).vcenter()
+
+  entrymohka.number = Crystalline.maaelle('div',0,0,1/5,1/8,entrymohka).ray(entrynumber).vcenter()
+
+entrymohka.img = Crystalline.maaelle('div',0,1/8,1,4/8,entrymohka).dalcorsascroll().dalcorsaeren().dalcorsa(entryimagelink)
+
+entrymohka.description = Crystalline.maaelle('div',0,5/8,1,1/8,entrymohka).ray(entrydescription)
+
+entrymohka.attributesx = Crystalline.maaelle('div',0,6/8,1,2/8,entrymohka).flow("o")
+
+    entrymohka.editli = Crystalline.maaelle('div',4/5,0,1/5,1/8,entrymohka).ray("edit").vcenter().rhap("7","255,255,255,1","1","solid").eshe(function(){
+scrollTo(0,0)
+SunMohka.EntryEditMohka.entrynumber.ray(entrynumber)
+SunMohka.EntryEditMohka.entryname.ray(entryname)
+SunMohka.EntryEditMohka.entryimagelink.ray(entryimagelink)
+SunMohka.EntryEditMohka.entrydescription.ray(entrydescription)
+SunMohka.EntryEditMohka.attributeselector.ray(entrytype)
+Entries.loadattributes(entryattributesstring)
+}.bind(this))
+
+for(let us = 0; us < entryattributes.length; us++){
+let attribute = Crystalline.maaelle('div',0,(1/4)*us,1,1/4,entrymohka.attributesx).rhap("7","255,255,255,1","1","solid")
+let asa = entryattributes[us].split("~!*^*!~")
+let attributename = Crystalline.maaelle('div',0,0,1,1/2,attribute).ray(asa[0] + ": ")
+let attributeat = Crystalline.maaelle('div',1/2,0,1,1/2,attribute).ray(asa[1])
+}
+}
+  }
+
+
+Entries.saveEntryX = async function(fullstring,entrylocation){ 
+    await fetch('https://rosinvault.glitch.me/saveEntry', { method: 'POST', headers: { 'Content-Type': 'application/json'}, body: JSON.stringify({fullstring:fullstring,entrylocation:entrylocation,loginname:SunMohka.account.login.value,loginpass:SunMohka.account.pass.value})}).then(response => response.json()).then(data => Entries.saveEntryXX(data)).catch(error => alert(error));    
+  }
+  
+    Entries.saveEntryXX = function(data){Entries.loadEntries()}
+  
+Entries.saveEntry = async function(){
+let entryattributious = []
+  for(let i = 0; i < Entries.entryattributetitles.length; i++){    entryattributious.push(Entries.entryattributetitles[i].value+"~!*^*!~"+Entries.entryattributedescriptions[i].value)
+}   
+let entryattributestring = entryattributious.join("~x*^*x~")
+let fullstring = SunMohka.EntryEditMohka.entrynumber.value+"~*^*~"+SunMohka.EntryEditMohka.entryname.value+"~*^*~"+SunMohka.EntryEditMohka.entryimagelink.value+"~*^*~"+SunMohka.EntryEditMohka.entrydescription.value+"~*^*~"+entryattributestring+"~*^*~"+SunMohka.EntryEditMohka.attributeselector.value
+await Entries.saveEntryX(fullstring,"entries/"+SunMohka.EntryEditMohka.entrynumber.value)
+return fullstring
+}
+
+Entries.Save = function(){
+  Entries.saveEntry()
+}
+
+Entries.preset = function(hem){
+Entries.entryattributedescriptions = []
+Entries.entryattributetitles = []
+    SunMohka.EntryEditMohka.attributesmohka.ray("")
+if(hem == "none"){    
+    }
+    if(hem == "Event"){
+      Entries.addspecificattribute("Weight")
+      Entries.addspecificattribute("Effect")
+    }
+    if(hem == "Card"){
+Entries.addspecificattribute("CardType")
+Entries.addspecificattribute("Role")
+Entries.addspecificattribute("Stats")
+Entries.addspecificattribute("Ability1")
+Entries.addspecificattribute("Ability2")
+Entries.addspecificattribute("Quotes")
+Entries.addspecificattribute("Rarity")
+    }
+    if(hem == "Dab"){
+Entries.addspecificattribute("Strains")
+Entries.addspecificattribute("ReleaseDate")
+Entries.addspecificattribute("ReleaseTime")
+Entries.addspecificattribute("ShowotronTitle")
+Entries.addspecificattribute("ShowotronDescription")
+Entries.addspecificattribute("Price")
+Entries.addspecificattribute("DaysBeforeReleaseAddToGalleryAndShowotron")
+Entries.addspecificattribute("Amount")
+Entries.addspecificattribute("Temperature")
+Entries.addspecificattribute("Type")
+    }
+if(hem == "Booster"){
+Entries.addspecificattribute("Cards")
+Entries.addspecificattribute("ReleaseDate")
+Entries.addspecificattribute("ReleaseTime")
+Entries.addspecificattribute("ShowotronTitle")
+Entries.addspecificattribute("ShowotronDescription")
+Entries.addspecificattribute("Price")
+Entries.addspecificattribute("DaysBeforeReleaseAddToGalleryAndShowotron")
+Entries.addspecificattribute("Amount")
+Entries.addspecificattribute("Mutations")
+Entries.addspecificattribute("Type")
+    }
+if(hem == "Coin"){
+Entries.addspecificattribute("IdealTemperature")
+Entries.addspecificattribute("Strains")
+    }
+if(hem == "HomeImg"){
+Entries.addspecificattribute("Date")
+    }
+  }
+
+Entries.addspecificattribute = function(hem){
+    let attributesholder = Crystalline.maaelle('div',0,(1/10)*Entries.entryattributetitles.length,1,1/10,SunMohka.EntryEditMohka.attributesmohka)
+    let attributestitle = Crystalline.maaelle('aera',0,0,1/2,1,attributesholder).hint("title").ray(hem)
+    Entries.entryattributetitles.push(attributestitle)    
+let attributesvalue = ""
+if(hem == "ReleaseDate"){
+attributesvalue = Crystalline.maaelle('input',1/2,0,1/2,1,attributesholder)
+attributesvalue.type = "Date"
+}
+if(hem == "ReleaseTime"){
+attributesvalue = Crystalline.maaelle('input',1/2,0,1/2,1,attributesholder)
+attributesvalue.type = "Time"
+}
+
+if(hem != "ReleaseDate" && hem != "ReleaseTime"){attributesvalue = Crystalline.maaelle('aera',1/2,0,1/2,1,attributesholder).hint("value")    
+}
+   if(hem == "Date"){
+let d = new Date()
+let dd = d.toUTCString()
+attributesvalue.ray(dd)
+}
+
+    Entries.entryattributedescriptions.push(attributesvalue)
+  }
+
+Entries.loadattributes = function(attributesstring){
+Entries.entryattributedescriptions = []
+Entries.entryattributetitles = []
+SunMohka.EntryEditMohka.attributesmohka.ray("")
+    let entryattributes = attributesstring.split("~x*^*x~")
+    for(let we = 0; we < entryattributes.length; we++){
+      let attributedata = entryattributes[we].split("~!*^*!~")
+      let attributename = attributedata[0]
+      let attributeamount = attributedata[1]
+      let attributesholder = Crystalline.maaelle('div',0,(1/10)*Entries.entryattributetitles.length,1,1/10,SunMohka.EntryEditMohka.attributesmohka)
+
+let attributestitle = Crystalline.maaelle('div',0,0,1/2,1,attributesholder).hint("title").ray(attributename)    
+    Entries.entryattributetitles.push(attributestitle)
+
+let attributesvalue = Crystalline.maaelle('aera',1/2,0,1/2,1,attributesholder).hint("value").ray(attributeamount)
+Entries.entryattributedescriptions.push(attributesvalue)
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Entries.start()
+</script></body>
+</html>
