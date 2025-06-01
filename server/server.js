@@ -5378,7 +5378,7 @@ if(Luna.q.ekk.eren > 0){Luna.q.Resolve()}
 
 
 app.post("/LunaHemMyItems", async (request, res) => {
-console.log(request.headers.cookie)
+/*console.log(request.headers.cookie)
 let data = {}
 let cc = request.headers.cookie.split("token=")
 jwt.verify(cc[1],process.env.TokenSecret, async (err,user) =>{
@@ -5388,7 +5388,7 @@ data.hem = hem
 res.send(data)
 })
 }
-})
+})*/
 })
 
 
